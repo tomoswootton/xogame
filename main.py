@@ -7,7 +7,6 @@ def print_board():
 	print("".join(board2))
 	print("".join(board3))
 	print("".join(boardfooter))
-print_board()
 ####
 
 
@@ -140,6 +139,7 @@ if __name__ == "__main__":
     board1 = ["|"," "," "," "," "," ","|"]
     board2 = ["|"," "," "," "," "," ","|"]
     board3 = ["|"," "," "," "," "," ","|"]
+    print_board()
 
     for x in range(4):
     	#player turn
